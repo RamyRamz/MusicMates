@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Music Mates Inc</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script>
+        $(document).ready(function(){
+                $(".article-list").hide();
+                $(".photo-list").hide();
+                $(".video-list").hide();
+        
+        });
+        $(document).ready(function(){
+            $("#articles").click(function(){
+                $(".article-list").show();
+                $(".photo-list").hide();
+                $(".video-list").hide();
+            });
+        });
+        $(document).ready(function(){
+            $("#photos").click(function(){
+                $(".photo-list").show();
+                $(".article-list").hide();
+                $(".video-list").hide();
+            });
+        });
+        $(document).ready(function(){
+            $("#videos").click(function(){
+                $(".video-list").show();
+                $(".article-list").hide();
+                $(".photo-list").hide();
+
+            });
+        });
+</script>
+  
+ <!-- nav --> 
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#programs">PROGRAMS</a></li>
+        <li><a href="#events">EVENTS</a></li>
+        <li><a href="#media">MEDIA</a></li>
+        <li><a href="#resources">RESOURCES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home -->
+<div class="jumbotron text-center" id="home">
+  <img src="logo.jpg">
+  <h1></h1> 
+  
+</div>
+
+<!-- About -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Us</h2><br>
+    </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+          <h4>What We Do</h4>
+            <p>MusicMates Inc. is a not for profit organization designed to bring social interaction opportunities to people with social and special needs through the use of music.</p>
+            <p>Our director, <strong>Shera Lumsden</strong>, is a mother of a child with special needs, a certified Health Information Management Professional, and in her final year of a BAH Music and Psychology Degree at Queen’s University. In her 15 years of teaching music, Shera has seen the difference music makes in the emotional, physical and social development of children, youth and adults with special needs. She channeled her passion for music into developing a program to help her daughter and others like her.</p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+          <h4>Board of Directors</h4>
+          <p><strong>Paula Ball</strong> (President of the Board, Director Frontenac Club Daycare)</p>
+          <p><strong>Deborah Veira</strong> (Treasurer of the Board, Admin Support St.Mary’s of the Lake Hospital)</p>
+          <p><strong>Camilla Goobie</strong> (Secretary of the Board, B.ED, OCT)</p>
+        </div>
+        <div class="col-sm-12 col-lg-12">
+          <h4>Our Staff</h4>
+          <div class="col-sm-3 col-lg-3">
+            <p><strong>Suzanne Carlstrom</strong> is a carpenter and Certified Energy Advisor with an honours degree in Psychology from Queen’s University. Suzanne is exceptionally creative and has an ear for sound when it comes to building with PVC piping! Suzanne will be joining MusicMates as Team Leader for the PVC Building clubs.</p>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <p><strong>Elizabeth (Liz) Santos</strong>  is our dedicated and enthusiastic <em>Singing & Signing</em> Teacher and part-time Administrator. We are so pleased to have Liz join our team. Liz is is working towards her music degree at Queen’s University in Kingston and brings a multitude of talents to MusicMates including musicianship, marketing, admin support and a passion for spreading the love of music.</p>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <p><strong>Cassie Bullett</strong> brings a world of brightness to MusicMates! Cassie and her family are well known to the Kingston community for their work in drama and theater. Cassie is currently enrolled in Psychology with a specialization in Neuropsychology at the University of New Brunswick.  She has also has spent years working with children, youth and adults as an Individual Support worker providing relief and specialized tutoring. Cassie has spent many summers with MusicMates assisting with music, drama and sign language support. She is resourceful, kind and highly appreciated in the Kingston community!</p>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <p>Active Musicians: Craig Jones, Simon Handley, Tom MacIntosh, Liz Santos. Shera Lumsden</p>
+            <p>Active Artist: Sherri Provost-Williams (Potter)</p>
+            <p>MusicMates is always actively recruiting volunteers to assist with class support. Our volunteers come from Queen’s University, St.Lawrence College and Community Living Kingston.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Programs -->
+<div id="programs" class="container-fluid text-center">
+  <h2>PROGRAMS</h2>
+  <br>
+  <br>
+  <div class="row slideanim">
+         <div class="col-sm-4">
+          <img src="Images/KidsCrowd-Sml.jpg" class="img-circle" alt="Crowd Kids">
+          <h4>Kids 12 & Under</h4>
+          <p>MusicMates is pleased to offer music programming designed to encourage social skills and create friendships. Our programs offer children, youth and adults the opportunity to make friends, learn sign language, and practice important social skills all through the use of music!</p>
+
+          <p>Programs run for ten weeks beginning at the end of September, end of January, and end of April. Summer activities vary every year. In between sessions, MusicMates participants are invited to in some fun social events such as music jams and field trips.</p>
+          <button class="btn"> register </button>
+        </div>
+        <div class="col-sm-4">
+          <img src="Images/SheraSigning-Sml.jpg" class="img-circle" alt="Crowd Kids">
+          <h4>Teens & Adults</h4>
+          <p>Filled with music, special guests, crafts and musical activities what better way to spend your summer! Spend your afternoons chillaxing with MusicMates! MusicMates is excited to offer its first Teens & Adults afternoon program. This program will run from 12-4pm each day and will be sure to keep our participants singing a tune all week long! There’s lots of space to relax if needed, dance and play an instrument of your choosing!</p>
+          <p>Address:</p>
+          <p>Located at Quintillian School Kingston</p>
+          <p>41 Baiden Street</p>
+          <button class="btn"> register </button>
+        </div>
+        <div class="col-sm-4">
+          <img src="Images/SheraGirl-Sml.jpg" class="img-circle" alt="Crowd Kids">
+          <h4>Portable Programming</h4>
+          <p>Individual Programming: this program is a custom designed music program based on the needs of the requesting individual. This program is current.y subsidized through ongoing fundraising efforts by our organization. Programs are available for:</p>
+          <p>Individuals with high needs who are unable to attend music in a group setting</p>
+          <p>Daycares</p>
+          <p>Schools</p>
+          <p>Individuals who are hospitalized
+          <p>Special events</p>
+          <p>Price and duration are dependent upon the activity. Please contact MusicMates to request pricing at musicmatesinc@gmail.com</p>
+          <button class="btn"> register </button>
+        </div>
+      </div>
+      <br><br>
+    </div>
+
+<!-- Events -->
+<div id="events" class="container-fluid text-center">
+  <h2>Events</h2><br>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+          <div class="thumbnail">
+            <p><strong>This week</strong></p>
+            <p>Session for Teens & Adults: Every Wednesday at 6:00pm-8:00pm</p>
+            <p>Teens & Adults Mellow Vibes: Thursdays at 6:00pm-8:00pm</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <p><strong>This month</strong></p>
+            <p>Keep checking back for more information!</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <p><strong>Future</strong></p>
+            <p>Keep checking back for more information!</p>
+          </div>
+        </div>
+      </div><br>
+    </div>
+
+<!-- Media -->
+<!-- Media -->
+<div id="media" class="container-fluid">
+  <div class="text-center">
+    <h2>MEDIA</h2>
+    <ul>
+      <li><button id="articles"> Articles </button></li>
+      <li><button id="photos"> Photos </a></li>
+      <li><button id="videos"> videos </a><li>
+    </ul> 
+  </div>
+
+  <!-- Articles -->
+  <div id="articles">
+    <p class="article-list"> this is a article </p>
+  </div>
+
+  <!-- Photos -->
+  <div id="photos" class="text-center">
+    <div class="media-type photo-list">
+      <div class="row">
+        <div class="col-md-4">
+          <a class="gallery-icon" href="#" data-toggle="modal" data-target="#photo-gallery1"> <img src="gallery-icons/gallery1-img.png" > </a>
+        </div>
+        <div class="col-md-4">
+          <a class="gallery-icon" href="#" data-toggle="modal" data-target="#photo-gallery2"> <img src="gallery-icons/gallery1-img.png" href="gallery1-modal"> </a>
+        </div>
+        <div class="col-md-4">
+          <a class="gallery-icon" href="#" data-toggle="modal" data-target="#photo-gallery3"> <img src="gallery-icons/gallery1-img.png" href="gallery1-modal"> </a>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <!-- Videos -->
+  <div id="videos">
+    <p class="video-list"> this is a video </p>
+  </div>
+
+</div>
+
+
+<div id="photo-gallery1" class="modal fade text-center" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+            <span class="close"> X </span>
+        </button>
+        <h3 class="modal-title">MusicMates PVC Instrument Building</h3>
+      </div> <!-- header-->
+      <div class="modal-body">
+        <div id="photo-carousel1" class="col-lg-10 col-md-10 col-sm-10 carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#photo-carousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#photo-carousel1" data-slide-to="1"></li>
+                <li data-target="#photo-carousel1" data-slide-to="2"></li>
+                <li data-target="#photo-carousel1" data-slide-to="3"></li>
+                <li data-target="#photo-carousel1" data-slide-to="4"></li>
+                <li data-target="#photo-carousel1" data-slide-to="0"></li>
+                <li data-target="#photo-carousel1" data-slide-to="1"></li>
+                <li data-target="#photo-carousel1" data-slide-to="2"></li>
+                <li data-target="#photo-carousel1" data-slide-to="3"></li>
+                <li data-target="#photo-carousel1" data-slide-to="4"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="photo-gallery1/photo1.png" style="height: 100%; width: 100%;">
+                </div>
+                <div class="item">
+                  <img src="photo-gallery1/photo2.png">
+                </div>
+                <div class="item">
+                  <img src="photo-gallery1/photo3.png">
+                </div>
+                <div class="item">
+                  <img src="photo-gallery1/photo4.png">
+                </div>
+                <div class="item">
+                  <img src="photo-gallery1/photo5.png">
+                </div>
+                <div class="item">
+                  <img src="photo-gallery1/photo1.png">
+                </div>
+                <div class="item">
+                  <img src="photo-gallery1/photo2.png">
+                </div>
+                <div class="item">
+                  <img src="photo-gallery1/photo3.png">
+                </div>
+                <div class="item">
+                  <img src="photo-gallery1/photo4.png">
+                </div>
+                <div class="item">
+                  <img src="photo-gallery1/photo5.png">
+                </div>
+
+              </div> <!-- carousel inner-->
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#photo-carousel1" role="button" data-slide="prev">
+                <span aria-hidden="true" class="icon-prev"> </span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#photo-carousel1" role="button" data-slide="next">
+                <span aria-hidden="true" class="icon-next"> </span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div> <!--carousel-->
+          </div><!--body-->
+      </div> <!--content-->
+  </div> <!--dialogue-->
+</div> <!--photo gallery-->
+
+
+
+<!-- Resources -->
+<div id="resources" class="container-fluid text-center">
+  <h2>RESOURCES</h2>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-3">
+      <h4 class="resources">Financial Support</h4>
+      <p><ul>
+        <li><a href="http://www.easterseals.org/">Easter Seals Ontario</a>
+        <li><a href="http://www.jenniferashleigh.org/">Jennifer Ashleigh Children’s Charity</a>
+        <li><a href="http://www.zachslist.ca/">Zach's list</a>
+        <li><a href="http://www.presidentschoice.ca/en_CA.html">President's Choice</a><ul>
+      </p>
+    </div>
+    <div class="col-sm-3">
+      <h4>Adaptive Equipment</h4>
+      <p><ul>
+      <li><a href="http://www.ioof.org/IOOF/About_Us/IOOF/About.aspx?hkey=0a2032f6-b188-477c-a8c6-9a4afeb90d17">Kingston Oddfellows</a>
+      </p>
+    </div>
+    <div class="col-sm-3">
+      <h4>Family Support</h4>
+      <p><ul>
+      <li><a href="http://www.autismontario.com/client/aso/ao.nsf/web/About+Us">Autism Ontario</a>
+      <li><a href="http://www.autismontario.com/client/aso/ao.nsf/web/About+Us">Bereaved Families of Ontario</a>
+      <li><a href="http://obia.ca/">Ontario Brain Injury Association</a>
+      <li><a href="http://www.chrc-ccdp.gc.ca/index.html">Canadian Human Rights Comission</a>
+      <li><a href="http://www.cancer.ca/en/?region=on">Canadian Cancer Society</a>
+      <li><a href="http://www.cancer.ca/en/?region=on">Canadian Diabetes Association</a>
+      </p>
+    </div>
+    <div class="col-sm-3">
+      <h4>Behavioral Support & Resources</h4>
+      <p><ul>
+      <li><a href="http://www.pathwayschildrenyouth.org/index.cfm">Pathways For Children & Youth</a>
+      <li><a href="http://portialearning.com/">The Portia Learning Centre</a>
+      </p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-3">
+      <h4>Families Who Need Travel</h4>
+      <p><ul>
+      <li><a href="http://www.almosthome.on.ca/index/about.htm">Almost Home Kingston</a>
+      <li><a href="http://www.cheo.on.ca/en/servicesandresources">Ottawa CHEO Hospital for families traveling out of town</a>
+      <li><a href="http://www.sickkids.ca/VisitingSickKids/Staying-at-SickKids/Nearby-accommodations/index.html">Toronto Sick Kids Hospital for families being treated outside of town</a>
+      </p>
+    </div>
+    <div class="col-sm-3">
+      <h4>Food Banks</h4>
+      <p><ul>
+      <li><a href="http://www.kingstonfoodbank.net/">Kingston Food Bank</a>
+      </p>
+    </div>
+    <div class="col-sm-3">
+      <h4>Inclusive Activities For Children/Youth/Adults with Special Needs</h4>
+      <p><ul>
+      <li><a href="http://www.kingstonyachtclub.com/index.cfm?PageURL=ablesail">Able Sail Kingston</a>
+      </p>
+    </div>
+    <div class="col-sm-3">
+      <h4 style="color:#303030;"><a href="MusicMatesinc.com">Other</a></h4>
+      <p><ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Sponsors -->
+<div id="Sponsors" class="container-fluid text-center">
+  <h2>SPONSORS</h2>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-3">
+    <p><a href="http://www.autismontario.com/" target="_blank">
+    <img src="SponsorImages/AutismOntario.jpg" width=90% height=90%><p> 
+    </a>
+  </div>
+  <div class="col-sm-3">
+    <p><a href="http://www.diabetes.ca/" target="_blank">
+    <img src="SponsorImages/CDA.png" width=90% height=90%><p></a>
+  </div>
+  <div class="col-sm-3">
+    <p><a href="http://www.communitylivingkingston.org/" target="_blank">
+    <img src="SponsorImages/CLO.gif" width=90% height=90%><p></a>
+  </div>
+  <div class="col-sm-3">
+    <p><a href="http://www.easterseals.org/" target="_blank">
+    <img src="SponsorImages/ESeals.png" width=90% height=90%><p></a>
+  </div>
+  </div>
+  <br><br>
+<div class="row slideanim">
+    <div class="col-sm-3">
+    <p><a href="http://jenash.org/" target="_blank">
+    <img src="SponsorImages/jacc_logo.png" width=90% height=90%><p> 
+    </a>
+  </div>
+  <div class="col-sm-3">
+    <p><a href="http://obia.ca/" target="_blank">
+    <img src="SponsorImages/OBIA.jpg" width=90% height=90%><p></a>
+  </div>
+  <div class="col-sm-3">
+    <p><a href="http://www.presidentschoice.ca/en_CA.html" target="_blank">
+    <img src="SponsorImages/logo-pc.png" width=90% height=90%><p></a>
+  </div>
+  <div class="col-sm-3">
+    <p><a href="http://www.zachslist.ca/" target="_blank">
+    <img src="SponsorImages/Zachslist-Logo.jpg" width=90% height=90%><p></a>
+  </div>
+  </div>
+</div>
+
+<!-- Contact -->
+<div id="contact" class="container-fluid">
+  <h2 class="text-center">CONTACT US</h2>
+  <div class="row">
+    <div class="col-md-7">
+      <div id="googleMap" style="height:400px;width:100%;"></div>
+    </div>
+    <div class="col-sm-5">
+    <p><span class="glyphicon glyphicon-map-marker"></span>Adress:<br>
+      4080 Bath Road, Kington, Ontario <br>
+      K7M 4Y7
+      </p>
+      <p><span class="glyphicon glyphicon-phone"></span> 613-453-8134</p>
+      <p><span class="glyphicon glyphicon-envelope"></span><a href="musicmatesinc@gmail.com">  Shera Lumsden</a></p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Mailing Adress:<br>
+      MusicMates Inc.<br>
+      c/o Community Living Kingston<br>
+      1412 Princess Street, Kingston Ontario<br>
+      K7M 3E5
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(44.2397218, -76.6123732);
+
+function initialize() {
+var mapProp = {
+  center:myCenter,
+  zoom:12,
+  scrollwheel:false,
+  draggable:false,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+</footer>
+
+
+<script>
+//adds smooth scroll
+
+$(document).ready(function(){
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    event.preventDefault();
+
+    var hash = this.hash;
+
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+   
+      window.location.hash = hash;
+    });
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
